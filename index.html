@@ -37,6 +37,7 @@ ul { list-style: none; }
 /* hero */
 .hero { height: 100vh; height: 100svh; min-height: 640px; padding: 20px; }
 .hero-in { position: relative; display: grid; place-items: center; height: 100%; padding: 24px; overflow: hidden; border-radius: 26px; background: radial-gradient(900px 480px at 78% 12%, rgba(255,87,87,.28), transparent 62%), radial-gradient(700px 420px at 12% 100%, rgba(255,255,255,.07), transparent 60%), #232323; color: #fff; text-align: center; }
+.hero-logo { display: block; width: clamp(150px, 22vw, 245px); height: auto; margin: 0 auto 22px; object-fit: contain; }
 .hero-tag { margin-bottom: 18px; color: rgba(255,255,255,.6); font-size: 13px; letter-spacing: .14em; }
 .hero h1 { font-family: var(--head); font-weight: 600; font-size: clamp(44px, 9vw, 112px); letter-spacing: -.045em; line-height: 1.05; }
 .hero h1 b { color: var(--coral); font-weight: 600; }
@@ -155,6 +156,7 @@ h2 { font-family: var(--head); font-weight: 600; font-size: clamp(30px, 4.4vw, 4
     <span class="steam" style="left:61%;bottom:12%;animation-delay:3.4s"></span>
     <span class="steam" style="left:78%;bottom:8%;animation-delay:5s"></span>
     <main>
+      <img class="hero-logo" src="/logo.svg" alt="AI클래스 앤 카페 로고">
       <p class="hero-tag">LEARN · MAKE · TALK</p>
       <h1>AI클래스<b>&amp;</b><em>CAFE</em></h1>
       <p class="hero-sub">AI를 배우고, 함께 만들고, 커피 한 잔처럼 편하게 이야기 나누는 학습 공간입니다.</p>
